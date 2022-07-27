@@ -151,14 +151,17 @@ body {
 
 .mail:hover .envelope {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .mail:focus .envelope {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .envelope:focus {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* tell */
@@ -174,6 +177,7 @@ body {
 
 .tel:hover .smartphone {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .tel:focus .smartphone {
@@ -182,6 +186,7 @@ body {
 
 .smartphone:focus {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .adress-items {
@@ -208,11 +213,13 @@ body {
 .mail:hover,
 .tel:hover {
   color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .nav-item:focus,
 .mail:focus,
 .tel:focus {
   color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .tel,
 .mail {
@@ -281,9 +288,11 @@ body {
 
 .social-link:hover {
   background-color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .social-link:focus {
   background-color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-icon {
@@ -294,10 +303,12 @@ body {
 
 .social-link:hover .social-icon {
   fill: white;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-link:focus .social-icon {
   fill: white;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .btn {
@@ -314,6 +325,7 @@ body {
 
 .btn:hover {
   background-color: #188ce8;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .visually-hidden {
@@ -534,18 +546,22 @@ body {
 
 .сlient-icon:hover {
   border: 1px solid var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .сlient-icon:focus {
   border: 1px solid var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .сlient-icon:hover .сlient-icon-item {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .сlient-icon:focus .сlient-icon-item {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .сlient-icon-item {
@@ -554,6 +570,7 @@ body {
 
 .сlient-icon-item:hover {
   fill: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* footer section */
@@ -610,9 +627,11 @@ body {
 }
 .footer-item:hover {
   color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-item:focus {
   color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-item {
   font-family: var(--main-font);
@@ -673,9 +692,11 @@ body {
 
 .footer-social-link:hover {
   background-color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-social-link:focus {
   background-color: var(--accent-txt-cl);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-social-icon {
@@ -686,10 +707,12 @@ body {
 
 .footer-social-link:hover .social-icon {
   fill: white;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-social-link:focus .social-icon {
   fill: white;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* Portfolio buttons */
@@ -726,12 +749,14 @@ body {
   color: white;
   background-color: var(--accent-txt-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .btn-item-list:focus {
   color: white;
   background-color: var(--accent-txt-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .logo-title {
@@ -748,10 +773,12 @@ body {
 
 .logo-title-link .link:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .logo-title-link .link:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .logo-title-link:hover .overlay {
@@ -836,7 +863,7 @@ body {
 
 .backdrop.is-hidden .modal {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.3) rotate(1turm);
+  transform: translate(-50%, -50%) scale(0.3) rotate(1turn);
 }
 
 .modal {
