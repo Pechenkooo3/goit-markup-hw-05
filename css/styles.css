@@ -759,6 +759,8 @@ body {
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
+/* logo title */
+
 .logo-title {
   display: flex;
   flex-wrap: wrap;
@@ -771,17 +773,22 @@ body {
   display: block;
 }
 
-.logo-title-link .link:hover {
+/* 1 */
+.logo-title-link:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.logo-title-link .link:focus {
+.logo-title-link:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.logo-title-link:hover .overlay {
+.logo-title-link .link:hover .overlay {
+  transform: translateY(0%);
+}
+
+.logo-title-link:focus .overlay {
   transform: translateY(0%);
 }
 
@@ -803,7 +810,7 @@ body {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
 
-  padding: 63px 24px;
+  /* padding: 63px 24px; */
 
   transform: translateY(100%);
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
@@ -816,6 +823,8 @@ body {
   line-height: calc(28 / 18);
   letter-spacing: 0.03em;
   color: white;
+
+  padding: 63px 24px;
 }
 
 .wrapper {
@@ -863,7 +872,7 @@ body {
 
 .backdrop.is-hidden .modal {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.3) rotate(1turn);
+  transform: translate(-50%, -50%) scale(0.3) rotate(1turm);
 }
 
 .modal {
