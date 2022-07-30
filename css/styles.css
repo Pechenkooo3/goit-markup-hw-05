@@ -148,7 +148,7 @@ body {
   width: 16px;
   margin-right: 10px;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .mail:hover .envelope {
@@ -169,7 +169,7 @@ body {
   width: 16px;
   margin-right: 10px;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .tel:hover .smartphone {
@@ -203,7 +203,7 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .nav-item:hover,
@@ -223,7 +223,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* main section */
@@ -282,7 +282,7 @@ body {
   background-color: white;
   border-radius: 50%;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-link:hover {
@@ -297,17 +297,15 @@ body {
   height: 20px;
   fill: #757575;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .social-link:hover .social-icon {
   fill: white;
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .social-link:focus .social-icon {
   fill: white;
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .btn {
@@ -320,8 +318,9 @@ body {
   cursor: pointer;
   padding: 10px 32px;
   border: none;
+  border-radius: 4px;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .btn:hover {
@@ -543,38 +542,33 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .сlient-icon:hover {
   border: 1px solid var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .сlient-icon:focus {
   border: 1px solid var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .сlient-icon:hover .сlient-icon-item {
   fill: var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .сlient-icon:focus .сlient-icon-item {
   fill: var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .сlient-icon-item {
   fill: #afb1b8;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .сlient-icon-item:hover {
   fill: var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 /* footer section */
@@ -631,11 +625,9 @@ body {
 }
 .footer-item:hover {
   color: var(--accent-txt-cl);
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-item:focus {
   color: var(--accent-txt-cl);
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer-item {
   font-family: var(--main-font);
@@ -644,6 +636,8 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-items {
@@ -693,16 +687,14 @@ body {
   background-color: #44454e;
   border-radius: 50%;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .footer-social-link:hover {
   background-color: var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 .footer-social-link:focus {
   background-color: var(--accent-txt-cl);
-  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .footer-social-icon {
@@ -713,12 +705,12 @@ body {
 
 .footer-social-link:hover .social-icon {
   fill: white;
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 .footer-social-link:focus .social-icon {
   fill: white;
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  /* transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms; */
 }
 
 /* Portfolio buttons */
@@ -750,17 +742,23 @@ body {
   border: none;
   border-radius: 4px;
 
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .btn-item-list:hover {
   color: white;
   background-color: var(--accent-txt-cl);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .btn-item-list:focus {
   color: white;
   background-color: var(--accent-txt-cl);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* logo title */
@@ -771,6 +769,8 @@ body {
   gap: 30px;
   padding-left: 0px;
   margin-top: 34px;
+
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .logo-title-link .link {
@@ -812,10 +812,8 @@ body {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
 
-  /* padding: 63px 24px; */
-
   transform: translateY(100%);
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .overlay-text {
@@ -864,6 +862,9 @@ body {
 
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1000;
+
+  transition: opacity cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    visibility cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .backdrop.is-hidden {
